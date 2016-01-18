@@ -1,0 +1,11 @@
+body {background-color:white;}
+h1   {font-size:36pt; color:blue;}
+h2   {font-size:20pt; color:black;}
+h3   {font-size:20pt; color:black;}
+h4   {font-size:15pt; color:#990000;}
+p    {margin-left:50px;}
+hr   {color:black; height:50%;} 
+img  {position:fixed; right:200px; top:80px}
+.floatLeft {border: 1px solid transparent; border-collapse: collapse; margin-top:150px; margin-left:auto;}
+.floatRight {border: 1px solid transparent; border-collapse: collapse; margin-top:0px; margin-right:auto;}
+   

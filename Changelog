@@ -1,0 +1,42 @@
+22/04/2014
+1. Added file called index1.html. It is supposed to replace index.jsp.
+	Has 3 frames 
+	
+2. Added file called Vmenu.html. It has anchor tags to all the pages. 
+	It opens any hyperlink clicked in the frame named window
+	
+23/04/2014
+
+1. Added columns first_name, last_name to the user_credentials database on my system.
+
+2. Added session Trackers to all jsp files whose links are referred to in the Vmenu file.
+	This is to ensure that a user has to log-in before he can navigate through the rest to the wesite.
+	
+3. Changed the Login.jsp file.
+	Added another condition statement. if(toggle.equals("logout")), then invalidate session object.
+	This is to ensure proper logout.
+	
+4. Added getUName function to userAuthentication.java. This function gives the user name corresponding to the user id.
+
+5. Stored username as a Session Attribute from Auth.jsp if login is successful.
+	This is so that the username can be displayed on all the pages.
+	
+6. Changed Header.html to header.jsp and added a script which decides the header message.
+	the header message is different when the user logs in. 
+	---------This still needs work as I am not able to refresh the header frame when the user logs in.------------
+	
+24/04/2014
+
+1. Created file ViewRes.jsp which contains code from the old index.jsp from ResultsDashboard.
+	
+2. Got the Logout page to redirect out of the frames Page.
+
+3. Removed miscellaneous extras in all page.
+	eg: lnks to home page.
+
+26/04/2014
+
+1. Many pages had links to ResultsDashboard. Changed them to link to AdministratorModule.
+
+2. ------------Download as PDF functionality not working -------------------------------
+	
